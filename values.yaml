@@ -281,6 +281,9 @@ jobservice:
 #     cpu: 100m
   nodeSelector: {}
   tolerations: []
+  # The http(s) proxy used to sync to registries on the internet
+  httpProxy:
+  httpsProxy:
   affinity: {}
   ## Additional deployment annotations
   podAnnotations: {}
